@@ -1,0 +1,57 @@
+# -----------------
+# Python bytecode
+# -----------------
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# -----------------
+# Virtual environments
+# -----------------
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# -----------------
+# Django / project files
+# -----------------
+db.sqlite3
+*.log
+staticfiles/
+media/
+*.pot
+
+# Local / secret settings (if you ever create them)
+*settings_local.py
+*.env
+.env.*
+
+# -----------------
+# Testing / tooling
+# -----------------
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.mypy_cache/
+.dmypy.json
+.pyre/
+
+# -----------------
+# IDE / Editor
+# -----------------
+.vscode/
+.idea/
+*.iml
+
+# -----------------
+# OS-specific
+# -----------------
+.DS_Store
+Thumbs.db
